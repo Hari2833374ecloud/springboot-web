@@ -12,7 +12,9 @@ build:
   
 deploy:
   context: Hari2833374ecloud/DEV
-  port: 8080
+  port: 
+  - 8080
+  - 8082
   replicas: 1
   
 properties:
